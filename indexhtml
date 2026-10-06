@@ -230,14 +230,32 @@ footer a:hover{color:#fff}
 /* ==================================================================
    EDIT HERE: SETTINGS (WhatsApp number, email, location, social links)
    ================================================================== */
-const WHATSAPP_NUMBER = "923000000000";      // <-- country code + number, no + or spaces
-const WHATSAPP_DISPLAY = "+92 300 0000000";  // <-- shown on the page
+const WHATSAPP_NUMBERS = [
+  "923004821754", // 03004821754
+  "923154665299"  // 03154665299
+];
+
+const WHATSAPP_DISPLAY = [
+  "+92 300 4821754",
+  "+92 315 4665299"
+];
+
 const EMAIL = "trendwear@example.com";
 const LOCATION = "Pakistan";
-const SOCIALS = [                            // <-- replace with your real links
-  {name:"Instagram", url:"https://instagram.com/"},
-  {name:"TikTok",    url:"https://tiktok.com/"},
-  {name:"YouTube",   url:"https://youtube.com/"}
+
+const SOCIALS = [
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/rehan.772496?stkn=dWZxd2RuNTFhbHpi"
+  },
+  {
+    name: "TikTok",
+    url: "https://www.tiktok.com/@user772496494"
+  },
+  {
+    name: "YouTube",
+    url: "https://www.youtube.com/@RehanVibesOfficial"
+  }
 ];
 
 /* ==================================================================
