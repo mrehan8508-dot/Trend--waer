@@ -230,33 +230,20 @@ footer a:hover{color:#fff}
 /* ==================================================================
    EDIT HERE: SETTINGS (WhatsApp number, email, location, social links)
    ================================================================== */
-const WHATSAPP_NUMBERS = [
-  "923004821754", // 03004821754
-  "923154665299"  // 03154665299
-];
-
-const WHATSAPP_DISPLAY = [
-  "+92 300 4821754",
-  "+92 315 4665299"
-];
-
+const WHATSAPP_NUMBER = "923004821754";      // <-- country code + number, no + or spaces
+const WHATSAPP_DISPLAY = "+92 3154665299";  // <-- shown on the page
 const EMAIL = "trendwear@example.com";
 const LOCATION = "Pakistan";
-
-const SOCIALS = [
-  {
-    name: "Instagram",
-    url: "https://www.instagram.com/rehan.772496?stkn=dWZxd2RuNTFhbHpi"
-  },
-  {
-    name: "TikTok",
-    url: "https://www.tiktok.com/@user772496494"
-  },
-  {
-    name: "YouTube",
-    url: "https://www.youtube.com/@RehanVibesOfficial"
-  }
+const SOCIALS = [                            // <-- replace with your real links
+{name:"Instagram", url:"https://www.instagram.com/rehan.772496?stkn=dWZxd2RuNTFhbHpi"/"},
+{name:"TikTok",    url:"https://www.tiktok.com/@user772496494" /"},
+{name:"YouTube",   url"https://www.youtube.com/@RehanVibesOfficial" /"}
 ];
+Ya dehko yah pr number ad kro mera 03004821754
+03154665299
+https://www.youtube.com/@RehanVibesOfficial
+tiktok.com/@user772496494
+https://www.instagram.com/rehan.772496?stkn=dWZxd2RuNTFhbHpi ya links or number agya hi es html me ad kr ke du me lgao
 
 /* ==================================================================
    EDIT HERE: PRODUCTS (name, price, image file, colour, sizes)
